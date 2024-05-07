@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Services</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Nos Services</h1>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('home') }}">Accueil</a></li>
+            <li><a href="{{ url_for('about') }}">À propos</a></li>
+            <li><a href="{{ url_for('contact') }}">Contact</a></li>
+            <li><a href="{{ url_for('services') }}">Services</a></li>
+            <li><a href="{{ url_for('faq') }}">FAQ</a></li>
+        </ul>
+    </nav>
+    <p>Nous offrons une variété de services, y compris ... Explorez nos offres et découvrez comment nous pouvons vous aider dans vos projets.</p>
+</body>
+</html>
